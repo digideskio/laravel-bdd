@@ -1,6 +1,7 @@
 {
     "name": "simotod/laravel-bdd",
     "description": "Bdd boilerplate for Laravel 5.1",
+    "keywords": ["laravel", "testing", "bdd", "behat"],
     "type": "library",
     "require": {
         "behat/behat": "^3.0",
@@ -15,5 +16,10 @@
             "email": "simo.todaro@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "SimoTod\\LaravelBdd\\": "src/"
+        }
+    }
 }
