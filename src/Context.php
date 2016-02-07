@@ -1,5 +1,5 @@
 <?php
-namespace SimoTod\LaravelBdd\Context;
+namespace SimoTod\LaravelBdd;
 
 use Behat\Behat\Context\Context as BehatContext;
 use Behat\Behat\Context\SnippetAcceptingContext;
