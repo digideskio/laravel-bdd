@@ -1,0 +1,19 @@
+{
+    "name": "simotod/laravel-bdd",
+    "description": "Bdd boilerplate for Laravel 5.1",
+    "type": "library",
+    "require": {
+        "behat/behat": "^3.0",
+        "behat/mink": "^1.7",
+        "behat/mink-extension": "^2.1",
+        "laracasts/behat-laravel-extension": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SimoTod",
+            "email": "simo.todaro@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
