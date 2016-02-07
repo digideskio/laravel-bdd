@@ -5,6 +5,10 @@ use Illuminate\Support\ServiceProvider;
 
 class BddServiceProvider extends ServiceProvider
 {
+    public function register()
+    {
+    }
+
     public function boot()
     {
         $this->publishes([
