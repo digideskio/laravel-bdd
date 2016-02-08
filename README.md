@@ -9,7 +9,7 @@ The package use [Behat](http://docs.behat.org/en/v3.0/), [mink](http://mink.beha
 From your laravel project, install the dependencies using composer
 
 ```
-composer require simotod/laravl-bdd:^1.0
+composer require simotod/laravel-bdd:^1.0
 ```
 
 Register the service Provider in config/app.php
