@@ -3,7 +3,7 @@
     "description": "Bdd boilerplate for Laravel 5.1",
     "keywords": ["laravel", "testing", "bdd", "behat"],
     "type": "library",
-    "require-dev": {
+    "require": {
         "behat/behat": "^3.0",
         "behat/mink": "^1.7",
         "behat/mink-extension": "^2.1",
