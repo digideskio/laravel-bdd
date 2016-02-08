@@ -3,7 +3,7 @@ default:
         '': %paths.base%/tests/bdd/context
     suites:
         default:
-            contexts: [%paths.base%/tests/bdd/features]
+            paths: [%paths.base%/tests/bdd/features]
     extensions:
         Laracasts\Behat:
             # env_path: .env.behat
