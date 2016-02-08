@@ -12,7 +12,7 @@ class BddServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../assets/bdd' => base_path('test/bdd'),
+            __DIR__.'/../assets/bdd' => base_path('tests/bdd'),
             __DIR__.'/../assets/config' => base_path(''),
         ]);
     }
