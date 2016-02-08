@@ -1,4 +1,7 @@
 default:
+    paths:
+        features: %behat.paths.base%/tests/features
+        bootstrap: %behat.paths.features%/bootstrap
     extensions:
         Laracasts\Behat:
             # env_path: .env.behat
