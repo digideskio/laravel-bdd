@@ -29,7 +29,7 @@ php artisan vendor:publish --provider="SimoTod\LaravelBdd\Providers\BddServicePr
 
 ## Basic Usage
 
-Write your features in tests/bdd/features using [gherkin syntax¶](http://docs.behat.org/en/v3.0/guides/1.gherkin.html#gherkin-syntax) and run the bdd tests
+Write your features in tests/bdd/features using [gherkin syntax](http://docs.behat.org/en/v3.0/guides/1.gherkin.html#gherkin-syntax) and run the bdd tests
 
 ```
 vendor/bin/behat
