@@ -1,6 +1,6 @@
 # Laravel Bdd
 
-**Laravel package to set up a Bdd test suite**
+**Package for Laravel 5 to run BDD test**
 
 This package uses [Behat](http://docs.behat.org/en/v3.0/), [mink](http://mink.behat.org/en/latest/), [mink-extension](https://github.com/Behat/MinkExtension) and [Behat laravel extension](https://github.com/laracasts/Behat-Laravel-Extension).
 
@@ -11,6 +11,7 @@ From your laravel project, install the dependencies using composer
 ```
 composer require simotod/laravl-bdd:^1.0 --dev
 ```
+
 **Note**
 The version of Mink compatible with Symfony 3 is still in development and currently we need to force Laravel to download the 2.0 version of the Simfony libraries to ensure a stable environment. Instead of requiring the libraries, add the dipendency in the composer.json.
 
@@ -19,12 +20,13 @@ The version of Mink compatible with Symfony 3 is still in development and curren
     //omitted
     "simotod/laravel-bdd": "~1.0"
 },
-
 ```
 and run
 ```
 composer update
 ```
+
+**Register the service provider**
 
 This package is for development only, so add
 
@@ -35,8 +37,9 @@ if (!$this-]app-]environment('production')) {
 ```
 in the register() method of the AppServiceProvider.
 
-Publish the yml file and the tests/bdd folder
+**Publish the required file**
 
+Publish the yml file and the tests/bdd folder
 ```
 php artisan vendor:publish --provider="SimoTod\LaravelBdd\Providers\BddServiceProvider"
 ```
