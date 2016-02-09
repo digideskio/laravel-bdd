@@ -9,7 +9,7 @@ This package uses [Behat](http://docs.behat.org/en/v3.0/), [mink](http://mink.be
 From your laravel project, install the dependencies using composer
 
 ```
-~~composer require simotod/laravl-bdd:^1.0 --dev~~
+composer require simotod/laravl-bdd:^1.0 --dev
 ```
 **Note**
 The version of Mink combatible with Symfony 3 is still in development, so we need to force Laravel to download the 2.0 version of the Simfony libraries. Instead of requiring the libraries, add the dipendency in the composer.json.
