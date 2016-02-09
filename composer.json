@@ -16,7 +16,6 @@
             "email": "simo.todaro@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "SimoTod\\LaravelBdd\\": "src/"
