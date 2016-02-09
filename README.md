@@ -12,7 +12,7 @@ From your laravel project, install the dependencies using composer
 composer require simotod/laravl-bdd:^1.0 --dev
 ```
 **Note**
-The version of Mink combatible with Symfony 3 is still in development, so we need to force Laravel to download the 2.0 version of the Simfony libraries. Instead of requiring the libraries, add the dipendency in the composer.json.
+The version of Mink compatible with Symfony 3 is still in development and currently we need to force Laravel to download the 2.0 version of the Simfony libraries to ensure a stable environment. Instead of requiring the libraries, add the dipendency in the composer.json.
 
 ```
 "require-dev": {
@@ -26,13 +26,14 @@ and run
 composer update
 ```
 
-Register the service Provider. This package is for development only so in the register method of the AppServiceProvider add
+This package is for development only, so add
 
 ```php
 if (!$this->app->environment('production')) {
     $this->app->register('SimoTod\LaravelBdd\Providers\BddServiceProvider');
 }
 ```
+in the register() method of the AppServiceProvider.
 
 Publish the yml file and the tests/bdd folder
 
