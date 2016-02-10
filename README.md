@@ -1,6 +1,6 @@
 # Laravel Bdd
 
-**Package for Laravel 5 to run BDD test**
+**BDD testing package for Laravel 5**
 
 This package uses [Behat](http://docs.behat.org/en/v3.0/), [mink](http://mink.behat.org/en/latest/), [mink-extension](https://github.com/Behat/MinkExtension) and [Behat laravel extension](https://github.com/laracasts/Behat-Laravel-Extension).
 
